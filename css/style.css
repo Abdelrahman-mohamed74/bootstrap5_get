@@ -1,0 +1,16 @@
+/* body{
+    height: 4000px !important;
+} */
+body::before{
+    content: '';
+    display: block;
+    height: 60px;
+}
+iframe{
+    height: 250px;
+}
+@media (min-width:768px) {
+    .new-input{
+        width: 50%;
+    }
+}
